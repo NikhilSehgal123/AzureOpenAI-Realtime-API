@@ -162,8 +162,8 @@ class RealtimeAPIAgent:
         self.console.print("[bold magenta]User started speaking...[/bold magenta]")
         self.console.print(f"[magenta]AI is speaking: {self.is_ai_speaking}[/magenta]")
         self.is_user_speaking = True
-        if self.is_ai_speaking:
-            self.lower_ai_volume()
+        # Stop AI speech
+        self.cancel_response()
 
     def _handle_audio_delta(self, data: Dict[str, Any]) -> None:
         """Handle incoming audio data."""
