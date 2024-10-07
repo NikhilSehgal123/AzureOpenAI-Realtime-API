@@ -11,8 +11,7 @@ This project is a client for the OpenAI Realtime API. It is not official and is 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/openai-realtime-api-client.git
-   cd openai-realtime-api-client
+   git clone https://github.com/NikhilSehgal123/AzureOpenAI-Realtime-API.git
    ```
 
 2. Install the required dependencies:
