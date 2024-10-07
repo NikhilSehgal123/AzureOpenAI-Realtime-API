@@ -43,8 +43,6 @@ To run the AI assistant:
 
 3. The assistant will connect to the Azure OpenAI API and start listening for WebSocket events.
 
-4. You can interact with the assistant through the WebSocket connection. The assistant can handle text inputs, process audio, and perform actions like sending OTPs.
-
 ## Features
 
 - Real-time text and audio communication
